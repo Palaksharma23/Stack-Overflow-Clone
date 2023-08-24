@@ -3,7 +3,7 @@ import axios from "axios";
 // baseURL: "http://localhost:5000/"
 
 const API = axios.create({
-  baseURL: "https://stack-overflow-clone-server-ql8j.onrender.com/",
+  baseURL: "http://localhost:5000/",
 });
 
 API.interceptors.request.use((req) => {
